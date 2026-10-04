@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¡Sorpresa!</title>
+    <script>
+        function lanzarRickroll() {
+            // El enlace al vídeo oficial de Rick Astley
+            const url = "https://youtube.com";
+            
+            // Abre 10 pestañas seguidas con el vídeo
+            for (let i = 0; i < 10; i++) {
+                window.open(url, '_blank');
+            }
+        }
+    </script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #f0f0f0; }
+        button { padding: 20px 40px; font-size: 24px; cursor: pointer; border-radius: 10px; background-color: #ff4757; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h1>🎁 Has recibido un regalo especial 🎁</h1>
+    <p>Haz clic abajo para abrir tu paquete:</p>
+    <br>
+    <!-- Al pulsar el botón se dispara la función de JavaScript -->
+    <button onclick="lanzarRickroll()">ABRIR REGALO</button>
+</body>
+</html>
